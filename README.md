@@ -58,5 +58,36 @@ This study focuses on Hangzhou’s central districts: Linping, Qiantang, Yuhang,
 - **Deep Learning**: UNet (PyTorch)
 - **Geospatial Libraries**: `rasterio`, `torch`, `geopandas`, `matplotlib`, `numpy`, `pandas`
 
-## 📂 Folder Structure
+## 📦 Data Sources
 
+- **Boundary**  
+  TianDiTu. (2024). *Administrative Division Boundary Data*. TianDiTu Cloud Center.  
+  [https://cloudcenter.tianditu.gov.cn/administrativeDivision](https://cloudcenter.tianditu.gov.cn/administrativeDivision)
+
+- **Sentinel-2 (Surface Reflectance, Level-2A)**  
+  European Space Agency. (2024). *Copernicus Sentinel-2 Level-2A Surface Reflectance Product*. Google Earth Engine.  
+  [https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR)  
+  - Acquisition Dates:  
+    - July 15–20, 2018 (Bands: B02, B03, B04, B08, B11)  
+    - October 15–20, 2023 (Bands: B02, B03, B04, B08, B11)
+
+- **DEM (Digital Elevation Model)**  
+  National Remote Sensing Center of China. (2024). *Digital Elevation Model (DEM)*. GSCloud.  
+  [https://www.gscloud.cn/search](https://www.gscloud.cn/search)
+
+- **Land Use Map (SinoLC-1)**  
+  Li, Z., He, W., Cheng, M., Hu, J., An, X., Huang, Y., Yang, G., & Zhang, H. (2023).  
+  *SinoLC-1: The first 1-meter resolution national-scale land-cover map of China created with the deep learning framework and open-access data (East of China)* [Data set]. Zenodo.  
+  [https://doi.org/10.5281/zenodo.7709370](https://doi.org/10.5281/zenodo.7709370)
+
+---
+
+## 🧾 License
+
+This project is for academic and research purposes. Please cite the data sources appropriately if used.
+
+---
+
+## 📌 Contact
+
+For questions or collaboration, please contact: zhuhaoyu0508@outlook.com
