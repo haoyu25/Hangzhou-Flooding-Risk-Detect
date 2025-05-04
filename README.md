@@ -7,7 +7,7 @@ Urban flooding is an increasingly urgent challenge for rapidly urbanizing cities
 ## 🗺️ Study Area
 This study focuses on Hangzhou’s central districts: Linping, Qiantang, Yuhang, Gongshu, Shangcheng, Xihu, Binjiang, and Xiaoshan.
 
-![Study Area Map](png/1-study area.png)
+![Study Area Map](png/1-study_area.png)
 
 ## ⚙️ Methodology
 
