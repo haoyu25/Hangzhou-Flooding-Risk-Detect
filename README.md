@@ -7,7 +7,7 @@ Urban flooding is an increasingly urgent challenge for rapidly urbanizing cities
 ## 🗺️ Study Area
 This study focuses on Hangzhou’s central districts: Linping, Qiantang, Yuhang, Gongshu, Shangcheng, Xihu, Binjiang, and Xiaoshan.
 
-![Study Area Map](figures/figure1_study_area.png)
+![Study Area Map](png/1-study_area.png)
 
 ## ⚙️ Methodology
 
@@ -16,7 +16,7 @@ This study focuses on Hangzhou’s central districts: Linping, Qiantang, Yuhang,
 - Input bands: Sentinel-2 B03 (Green), B04 (Red), B08 (NIR), B11 (SWIR).
 - Output classes: Impervious surface, pervious surface, nodata.
 
-![UNet Prediction](figures/figure3_unet_results.png)
+![UNet Prediction](png/2-workflow.png)
 
 ### 2. HAND-Based Inundation Mapping
 - HAND derived from DEM using PySheds and Rasterio.
