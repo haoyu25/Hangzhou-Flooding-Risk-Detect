@@ -15,10 +15,10 @@ This study focuses on Hangzhou’s central districts: Linping, Qiantang, Yuhang,
 
 - [1-Download & Process Raw Data](1_Download_Process_Raw_Data.ipynb)
 - [2-Model Prepare](2_Model_Prepare.ipynb)
-- [3-Model Prepare](3-Model Prepare.ipynb)
-- [4-Model Prepare](3-Model Prepare.ipynb)
+- [3-UNet Model](3_UNET_Model.ipynb)
+- [4-Predict](4_Predict.ipynb)
 - [5-HAND Model](5_HAND_Model.ipynb)
-- [6-Model Prepare](3-Model Prepare.ipynb)
+- [6-Analysis](6_Analysis.ipynb)
 
 ### 1. Impervious Surface Extraction (UNet)
 - Semantic segmentation with UNet model trained on SinoLC-1 dataset.
