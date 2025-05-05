@@ -1,5 +1,5 @@
 # 🌆 Assessing Urban Expansion and Inundation Risk in Hangzhou’s Central Districts
-MUSA 6950: AI for Urban Sustainability -  Spring 2025 - Final Project
+MUSA 6950: AI for Urban Sustainability - Spring 2025 - Final Project - Instructor: Xiaojiang Li
 
 ## 📖 Abstract
 Urban flooding is an increasingly urgent challenge for rapidly urbanizing cities. This study proposes an integrated method that combines deep learning-based impervious surface extraction with terrain-based flood modeling to assess changes in inundation risk between 2018 and 2023 in Hangzhou’s core districts. Using Sentinel-2 imagery and a HAND (Height Above Nearest Drainage) model, we identified spatial-temporal patterns of expansion and risk to support sustainable urban planning.
@@ -7,16 +7,18 @@ Urban flooding is an increasingly urgent challenge for rapidly urbanizing cities
 ## 🗺️ Study Area
 This study focuses on Hangzhou’s central districts: Linping, Qiantang, Yuhang, Gongshu, Shangcheng, Xihu, Binjiang, and Xiaoshan.
 
-![Study Area Map](png/1-study_area.png)
+<img src="png/1-study_area.png" alt="Study Area Map" width="500"/>
 
 ## ⚙️ Methodology
+
+<img src="png/2-workflow.png" alt="Workflow" width="500"/>
 
 ### 1. Impervious Surface Extraction (UNet)
 - Semantic segmentation with UNet model trained on SinoLC-1 dataset.
 - Input bands: Sentinel-2 B03 (Green), B04 (Red), B08 (NIR), B11 (SWIR).
 - Output classes: Impervious surface, pervious surface, nodata.
 
-![UNet Prediction](png/2-workflow.png)
+![UNet Prediction](png/3-workflow.png)
 
 ### 2. HAND-Based Inundation Mapping
 - HAND derived from DEM using PySheds and Rasterio.
