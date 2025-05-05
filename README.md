@@ -14,7 +14,7 @@ This study focuses on Hangzhou’s central districts: Linping, Qiantang, Yuhang,
 <img src="png/2-workflow.png" alt="Workflow" width="500"/>
 
 - [1-Download & Process Raw Data](1_Download_Process_Raw_Data.ipynb)
-- [2-HAND Model](2-HAND Model.ipynb)
+- [2-Model Prepare](2_Model_Prepare.ipynb)
 - [3-Model Prepare](3-Model Prepare.ipynb)
 - [4-Model Prepare](3-Model Prepare.ipynb)
 - [5-HAND Model](5_HAND_Model.ipynb)
