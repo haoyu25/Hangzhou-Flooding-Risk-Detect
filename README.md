@@ -13,12 +13,19 @@ This study focuses on Hangzhou’s central districts: Linping, Qiantang, Yuhang,
 
 <img src="png/2-workflow.png" alt="Workflow" width="500"/>
 
+- [1-Download & Process Raw Data](code/model.py)
+- [2-HAND Model](2-HAND Model.ipynb)
+- [3-Model Prepare](3-Model Prepare.ipynb)
+- [4-Model Prepare](3-Model Prepare.ipynb)
+- [5-Model Prepare](3-Model Prepare.ipynb)
+- [6-Model Prepare](3-Model Prepare.ipynb)
+
 ### 1. Impervious Surface Extraction (UNet)
 - Semantic segmentation with UNet model trained on SinoLC-1 dataset.
 - Input bands: Sentinel-2 B03 (Green), B04 (Red), B08 (NIR), B11 (SWIR).
 - Output classes: Impervious surface, pervious surface, nodata.
 
-<img src="png/3.png" alt="Workflow" width="500"/>
+<img src="png/3.png" alt="Workflow" width="300"/>
 <img src="png/4.png" alt="Workflow" width="500"/>
 
 ### 2. HAND-Based Inundation Mapping
