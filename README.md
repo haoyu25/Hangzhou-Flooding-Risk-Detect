@@ -36,9 +36,8 @@ This study focuses on Hangzhou’s central districts: Linping, Qiantang, Yuhang,
 <img src="png/5.png" alt="Workflow" width="500"/>
 
 ### 3. Hexagon-Based Spatial Aggregation
-- Created 150 regular hexagons to summarize spatial indicators.
+- Created regular hexagons arranged with 150 per row to summarize spatial indicators.
 - Computed impervious surface %, mean/max HAND, and change rates.
-- Classified risk into three levels: Extreme, Chronic, Low.
 
 <img src="png/6.png" alt="Workflow" width="500"/>
 
