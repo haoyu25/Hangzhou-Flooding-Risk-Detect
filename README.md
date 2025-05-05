@@ -1,4 +1,4 @@
-# 🌆 Assessing Urban Expansion and Inundation Risk in Hangzhou’s Central Districts
+# Assessing Urban Expansion and Inundation Risk in Hangzhou’s Central Districts
 MUSA 6950: AI for Urban Sustainability - Spring 2025 - Final Project - Instructor: Xiaojiang Li
 
 ## 📖 Abstract
