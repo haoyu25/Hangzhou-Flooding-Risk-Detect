@@ -1,5 +1,6 @@
 # Assessing Urban Expansion and Inundation Risk in Hangzhou’s Central Districts
 MUSA 6950: AI for Urban Sustainability - Spring 2025 - Final Project - Instructor: Xiaojiang Li
+- [Full Report](HaoyuZhu_Final_report.pdf)
 
 ## 📖 Abstract
 Urban flooding is an increasingly urgent challenge for rapidly urbanizing cities. This study proposes an integrated method that combines deep learning-based impervious surface extraction with terrain-based flood modeling to assess changes in inundation risk between 2018 and 2023 in Hangzhou’s core districts. Using Sentinel-2 imagery and a HAND (Height Above Nearest Drainage) model, we identified spatial-temporal patterns of expansion and risk to support sustainable urban planning.
