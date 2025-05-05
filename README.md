@@ -13,26 +13,34 @@ This study focuses on Hangzhou’s central districts: Linping, Qiantang, Yuhang,
 
 <img src="png/2-workflow.png" alt="Workflow" width="500"/>
 
+- [1-Download & Process Raw Data](1_Download_Process_Raw_Data.ipynb)
+- [2-Model Prepare](2_Model_Prepare.ipynb)
+- [3-UNet Model](3_UNET_Model.ipynb)
+- [4-Predict](4_Predict.ipynb)
+- [5-HAND Model](5_HAND_Model.ipynb)
+- [6-Analysis](6_Analysis.ipynb)
+
 ### 1. Impervious Surface Extraction (UNet)
 - Semantic segmentation with UNet model trained on SinoLC-1 dataset.
 - Input bands: Sentinel-2 B03 (Green), B04 (Red), B08 (NIR), B11 (SWIR).
 - Output classes: Impervious surface, pervious surface, nodata.
 
-![UNet Prediction](png/3-workflow.png)
+<img src="png/3.png" alt="Workflow" width="300"/>
+<img src="png/4.png" alt="Workflow" width="500"/>
 
 ### 2. HAND-Based Inundation Mapping
 - HAND derived from DEM using PySheds and Rasterio.
 - Thresholds applied: 5m, 10m, 15m to simulate low to high flood risk areas.
 - Adjusted using impervious surface and runoff coefficient assumptions.
 
-![HAND Model](figures/figure6_hand_thresholds.png)
+<img src="png/5.png" alt="Workflow" width="500"/>
 
 ### 3. Hexagon-Based Spatial Aggregation
 - Created 150 regular hexagons to summarize spatial indicators.
 - Computed impervious surface %, mean/max HAND, and change rates.
 - Classified risk into three levels: Extreme, Chronic, Low.
 
-![Hex Grid Summary](figures/figure7_hex_overlay.png)
+<img src="png/6.png" alt="Workflow" width="500"/>
 
 ## 📊 Results
 
@@ -40,7 +48,8 @@ This study focuses on Hangzhou’s central districts: Linping, Qiantang, Yuhang,
 - **Flood Risk Growth**: Areas with high impervious growth also show increased inundation exposure.
 - **Hotspots**: Qiantang River corridor and western suburbs show clusters of "Extreme Risk".
 
-![2018 vs 2023 Comparison](figures/figure8_risk_map_comparison.png)
+<img src="png/7.png" alt="Workflow" width="500"/>
+<img src="png/8.png" alt="Workflow" width="500"/>
 
 ## 💬 Discussion
 
