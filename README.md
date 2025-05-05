@@ -45,7 +45,7 @@ This study focuses on Hangzhou’s central districts: Linping, Qiantang, Yuhang,
 
 - **Urban Expansion**: Most significant in Yuhang and Xiaoshan.
 - **Flood Risk Growth**: Areas with high impervious growth also show increased inundation exposure.
-- **Hotspots**: Qiantang River corridor and western suburbs show clusters of "Extreme Risk".
+- **Hotspots**: Qiantang River corridor and northwestern suburbs show clusters of "Extreme Risk".
 
 <img src="png/7.png" alt="Workflow" width="500"/>
 <img src="png/8.png" alt="Workflow" width="500"/>
